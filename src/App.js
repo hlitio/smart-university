@@ -1,5 +1,6 @@
 import "./styles.css";
-
+import { ArcElement } from "chart.js";
+import Chart from "chart.js/auto";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Form from "react-bootstrap/Form";
@@ -19,7 +20,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
-import { Bar, Doughnut, Chart, Pie } from "react-chartjs-2";
+import { Bar, Doughnut, Pie } from "react-chartjs-2";
 import Modal from "react-bootstrap/Modal";
 
 function BestWay() {
@@ -389,7 +390,7 @@ export default function App() {
                   className="nombre"
                   Style="font-family: 'Roboto Slab'; font-size: 3.5rem;"
                 >
-                  Hernán J. Hereñú
+                  Hernán Hernancito
                 </h1>
                 <h2 Style="font-family: 'Roboto Flex', sans-serif; font-size: 1.5rem;">
                   Universidad de la Marina Mercante
@@ -412,7 +413,7 @@ export default function App() {
             <Curso />
 
             <div className="m-2 p-3 border rounded">
-              
+              <PieChart chartData={data} />
             </div>
             <div className="m-2 p-3 border rounded">
               <Button variant="primary" onClick={() => setModalMaterias(true)}>
