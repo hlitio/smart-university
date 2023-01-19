@@ -1,0 +1,405 @@
+[
+    {
+      "codigo": "I0100",
+      "materia": "Algebra y Geometria Análitica",
+      "correlativa": [],
+      "ano": 1,
+      "cursada": true
+    },
+    {
+      "codigo": "I0101",
+      "materia": "Análisis Matemático IA",
+      "correlativa": [],
+      "ano": 1,
+      "cursada": true
+    },
+    {
+      "codigo": "I0102",
+      "materia": "Introducción a la Ingeniería",
+      "correlativa": [],
+      "ano": 1,
+      "cursada": true
+    },
+    {
+      "codigo": "I0129",
+      "materia": "Matemática Discreta",
+      "correlativa": [],
+      "ano": 1,
+      "cursada": true
+    },
+    {
+      "codigo": "I0104",
+      "materia": "Sistemas de Representación I",
+      "correlativa": [],
+      "ano": 1,
+      "cursada": true
+    },
+    {
+      "codigo": "I0105",
+      "materia": "Análisis Matemático IB",
+      "correlativa": ["I0100", "I0101"],
+      "ano": 1,
+      "cursada": true
+    },
+    {
+      "codigo": "I0106",
+      "materia": "Fisica I",
+      "correlativa": ["I0100", "I0101"],
+      "ano": 1,
+      "cursada": true
+    },
+    {
+      "codigo": "I0113",
+      "materia": "Arquitectura de Computadores",
+      "correlativa": ["I0129"],
+      "ano": 1,
+      "cursada": true
+    },
+    {
+      "codigo": "I0130",
+      "materia": "Sistemas y Organizaciones",
+      "correlativa": [],
+      "ano": 1,
+      "cursada": true
+    },
+    {
+      "codigo": "I0110",
+      "materia": "Algoritmos y Estructuras de Datos",
+      "correlativa": [],
+      "ano": 1,
+      "cursada": true
+    },
+    {
+      "codigo": "I0200",
+      "materia": "Análisis Matemático II",
+      "correlativa": ["I0105"],
+      "ano": 2,
+      "cursada": true
+    },
+    {
+      "codigo": "I0232",
+      "materia": "Sintaxis y semantica del lenguaje",
+      "correlativa": ["I0110", "I0113"],
+      "ano": 2,
+      "cursada": true
+    },
+    {
+      "codigo": "I0201",
+      "materia": "Física II",
+      "correlativa": ["I0105", "I0106"],
+      "ano": 2,
+      "cursada": true
+    },
+    {
+      "codigo": "I0103",
+      "materia": "Química I",
+      "correlativa": [],
+      "ano": 2,
+      "cursada": true
+    },
+    {
+      "codigo": "I0210",
+      "materia": "Análisis de Sistemas I",
+      "correlativa": ["I0130"],
+      "ano": 2,
+      "cursada": true
+    },
+    {
+      "codigo": "I0203",
+      "materia": "Análisis Matemático III",
+      "correlativa": ["I0200"],
+      "ano": 2,
+      "cursada": true
+    },
+    {
+      "codigo": "I0226",
+      "materia": "Paradigmas de Programación",
+      "correlativa": ["I0232"],
+      "ano": 2,
+      "cursada": true
+    },
+    {
+      "codigo": "I0233",
+      "materia": "Sistemas Operativos",
+      "correlativa": ["I0232"],
+      "ano": 2,
+      "cursada": true
+    },
+    {
+      "codigo": "I0211",
+      "materia": "Análisis de Sistemas II",
+      "correlativa": ["I0110", "I0210"],
+      "ano": 2,
+      "cursada": true
+    },
+    {
+      "codigo": "I0377",
+      "materia": "Responsabilidad social profesional",
+      "correlativa": ["I0102"],
+      "ano": 2,
+      "cursada": true
+    },
+    {
+      "codigo": "I0310",
+      "materia": "Comunicaciones",
+      "correlativa": ["I0201", "I0113"],
+      "ano": 3,
+      "cursada": true
+    },
+    {
+      "codigo": "I0312",
+      "materia": "Diseño de Sistemas I",
+      "correlativa": ["I0211", "I0226"],
+      "ano": 3,
+      "cursada": false
+    },
+    {
+      "codigo": "I0319",
+      "materia": "Gestión de Datos",
+      "correlativa": ["I0226"],
+      "ano": 3,
+      "cursada": false
+    },
+    {
+      "codigo": "I0242",
+      "materia": "Economía y Financiación de Empresas",
+      "correlativa": ["I0200", "I0130"],
+      "ano": 3,
+      "cursada": true
+    },
+    {
+      "codigo": "I0301",
+      "materia": "Cálculo Avanzado B",
+      "correlativa": ["I0203"],
+      "ano": 3,
+      "cursada": true
+    },
+    {
+      "codigo": "I0304",
+      "materia": "Probabilidad y Estadistica",
+      "correlativa": ["I0203"],
+      "ano": 3,
+      "cursada": true
+    },
+    {
+      "codigo": "I0376",
+      "materia": "Ingeniería de Software I",
+      "correlativa": ["I0312"],
+      "ano": 3,
+      "cursada": false
+    },
+    {
+      "codigo": "I0313",
+      "materia": "Diseño de Sistemas II",
+      "correlativa": ["I0312"],
+      "ano": 3,
+      "cursada": false
+    },
+    {
+      "codigo": "I0338",
+      "materia": "Redes de Información",
+      "correlativa": ["I0310", "I0233"],
+      "ano": 3,
+      "cursada": true
+    },
+    {
+      "codigo": "I0107",
+      "materia": "Análisis Numérico",
+      "correlativa": ["I0100", "I0101"],
+      "ano": 3,
+      "cursada": true
+    },
+    {
+      "codigo": "I0436",
+      "materia": "Sistemas de Gestión I",
+      "correlativa": ["I0304"],
+      "ano": 4,
+      "cursada": false
+    },
+    {
+      "codigo": "I0420",
+      "materia": "Investigación Operativa",
+      "correlativa": ["I0107", "I0304"],
+      "ano": 4,
+      "cursada": false
+    },
+    {
+      "codigo": "I0401",
+      "materia": "Seguridad, Higiene y Medio Ambiente",
+      "correlativa": ["I0103", "I0104"],
+      "ano": 4,
+      "cursada": true
+    },
+    {
+      "codigo": "I0486",
+      "materia": "Seguridad Informática",
+      "correlativa": ["I0338"],
+      "ano": 4,
+      "cursada": false
+    },
+    {
+      "codigo": "I0487",
+      "materia": "Desarrollo Avanzado de Software",
+      "correlativa": ["I0313", "I0319", "I0376"],
+      "ano": 4,
+      "cursada": false
+    },
+    {
+      "codigo": "I0437",
+      "materia": "Sistemas de Gestión II",
+      "correlativa": ["I0436", "I0420"],
+      "ano": 4,
+      "cursada": false
+    },
+    {
+      "codigo": "I0432",
+      "materia": "Simulación",
+      "correlativa": ["I0107", "I0436"],
+      "ano": 4,
+      "cursada": false
+    },
+    {
+      "codigo": "I0438",
+      "materia": "Teoría de Control",
+      "correlativa": ["I0107", "I0201"],
+      "ano": 4,
+      "cursada": true
+    },
+    {
+      "codigo": "I0485",
+      "materia": "Ingeniería de Software II",
+      "correlativa": ["I0376"],
+      "ano": 4,
+      "cursada": false
+    },
+    {
+      "codigo": "I0488",
+      "materia": "Gestión Económica de Proyectos",
+      "correlativa": ["I0376", "I0242", "I0313"],
+      "ano": 4,
+      "cursada": false
+    },
+    {
+      "codigo": "I0508",
+      "materia": "Proyecto de Sistemas",
+      "correlativa": [
+        "I0377",
+        "I0401",
+        "I0486",
+        "I0487",
+        "I0437",
+        "I0432",
+        "I0438",
+        "I0485",
+        "I0488"
+      ],
+      "ano": 5,
+      "cursada": false
+    },
+    {
+      "codigo": "I0503",
+      "materia": "Admistración Gerencial",
+      "correlativa": ["I0485", "I0437"],
+      "ano": 5,
+      "cursada": false
+    },
+    {
+      "codigo": "I0507",
+      "materia": "Inteligencia Artificial",
+      "correlativa": ["I0226", "I0438"],
+      "ano": 5,
+      "cursada": false
+    },
+    {
+      "codigo": "I0509",
+      "materia": "Proyecto Final de Sistemas",
+      "correlativa": ["Todas las materias aprobadas"],
+      "ano": 5,
+      "cursada": false
+    },
+    {
+      "codigo": "I0500",
+      "materia": "Legislación y Ejercicio Profesional",
+      "correlativa": ["I0485", "I0488"],
+      "ano": 5,
+      "cursada": false
+    },
+    {
+      "codigo": "I0556",
+      "materia": "Base de Datos",
+      "correlativa": ["I0487"],
+      "ano": 5,
+      "cursada": false
+    },
+    {
+      "codigo": "I0557",
+      "materia": "Sistemas Industriales, Informáticos y de Control",
+      "correlativa": ["I0438"],
+      "ano": 5,
+      "cursada": true
+    },
+    {
+      "codigo": " I0510",
+      "materia": "Robótica",
+      "correlativa": ["I0438"],
+      "ano": 6,
+      "cursada": false
+    },
+    {
+      "codigo": " I0536",
+      "materia": "Comercialización",
+      "correlativa": ["I0242", "I0313"],
+      "ano": 6,
+      "cursada": false
+    },
+    {
+      "codigo": "I0558",
+      "materia": "Gestión de Personal",
+      "correlativa": ["I0536"],
+      "ano": 6,
+      "cursada": false
+    },
+    {
+      "codigo": "I0504",
+      "materia": "Domótica",
+      "correlativa": ["I0438"],
+      "ano": 6,
+      "cursada": false
+    },
+    {
+      "codigo": "I0118",
+      "materia": "Ingeniería de Materiales",
+      "correlativa": ["I0100", "I0102", "I0103"],
+      "ano": 6,
+      "cursada": false
+    },
+    {
+      "codigo": "I0407",
+      "materia": "Confiabilidad y Mantenimiento",
+      "correlativa": ["I0304"],
+      "ano": 6,
+      "cursada": true
+    },
+    {
+      "codigo": "I0303",
+      "materia": "Ingles I",
+      "correlativa": [],
+      "ano": 7,
+      "cursada": true
+    },
+    {
+      "codigo": "I0302",
+      "materia": "Informatica I",
+      "correlativa": [],
+      "ano": 7,
+      "cursada": true
+    },
+    {
+      "codigo": "",
+      "materia": "Ingles II",
+      "correlativa": [],
+      "ano": 7,
+      "cursada": false
+    }
+  ]
+  
